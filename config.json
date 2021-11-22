@@ -1,0 +1,28 @@
+{
+  "server": {
+    "debug": false,
+    "http_debug": false,
+    "http_demo": true,
+    "http_dir": "web",
+    "http_login": "*******",
+    "http_password": "*******",
+    "http_port": ":8083",
+    "log_level": "debug",
+    "rtsp_port": ":554",
+    "https": false,
+    "https_port": ":443",
+    "https_cert": "server.crt",
+    "https_key": "server.key"
+  },
+  "streams": {
+    "demo": {
+      "channels": {
+        "0": {
+          "debug": false,
+          "url": "$URL"
+        }
+      },
+      "name": "demo"
+    }
+  }
+}
