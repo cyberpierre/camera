@@ -4,8 +4,8 @@
     "http_debug": false,
     "http_demo": true,
     "http_dir": "web",
-    "http_login": "********",
-    "http_password": "**********",
+    "http_login": "jcartier",
+    "http_password": "HackIsLife",
     "http_port": ":8083",
     "log_level": "debug",
     "rtsp_port": ":554",
@@ -19,7 +19,7 @@
       "channels": {
         "0": {
           "debug": false,
-          "url": "$URL"
+          "url": "http://lfbn-ren-1-1459-226.w90-27.abo.wanadoo.fr:8123/"
         }
       },
       "name": "demo"
